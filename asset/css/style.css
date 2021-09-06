@@ -1,0 +1,624 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+.header .navbar {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*
+        navbar links styling
+    */
+  /*
+        navbar icons styling
+    */
+}
+
+.header .navbar .navlinks {
+  width: 78%;
+  height: 70px;
+  margin-left: 50px;
+}
+
+.header .navbar .navlinks ul {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .navbar .navlinks ul li {
+  list-style-type: none;
+}
+
+.header .navbar .navlinks ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.header .navbar .navlinks ul .active {
+  border-top: 2px solid black;
+  padding: 14px 0px;
+  font-weight: bold;
+}
+
+.header .navbar .navlinks ul .icon-style {
+  position: relative;
+  top: 4px;
+}
+
+.header .navbar .navicons {
+  width: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-right: 120px;
+}
+
+.header .head {
+  height: 690px;
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .head .leftside {
+  width: 35%;
+  height: 690px;
+  background-color: #2d77a4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .head .leftside .contact {
+  margin-top: 140px;
+  width: 100%;
+  height: 90px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .head .leftside .contact .linediv {
+  margin-top: 40px;
+  background-color: black;
+  width: 100px;
+  height: 2px;
+}
+
+.header .head .leftside .text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 31px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0px 9px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 190px;
+}
+
+.header .head .leftside .text p {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+.header .head .leftside .text .btn {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.header .head .leftside .text .btn a {
+  color: #303030;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.header .head .rightside {
+  width: 50%;
+  height: 690px;
+  background-image: url("/asset/img/headerimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pdf {
+  width: 100%;
+  height: 1220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pdf .heading {
+  margin-top: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pdf .heading h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+}
+
+.pdf .heading .linediv2 {
+  margin-top: 17px;
+  background-color: black;
+  height: 2px;
+  width: 45%;
+}
+
+.pdf .heading a {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: #2d77a4;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.pdf .heading a span .icon-style2 {
+  position: relative;
+  top: 3px;
+}
+
+.pdf .pdf-img {
+  height: 915px;
+  width: 56%;
+  border: 3px solid rgba(171, 184, 171, 0.082);
+}
+
+.pdf .pdf-img img {
+  width: 710px;
+  height: 895px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-3 {
+  width: 100%;
+  height: 670px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-3 .heading-section-3 {
+  height: 70px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-3 .heading-section-3 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section-3 .heading-section-3 .linediv3 {
+  background-color: black;
+  height: 2px;
+  width: 45%;
+}
+
+.section-3 .cards-1 {
+  width: 100%;
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section-3 .cards-1 .img-1 {
+  margin-left: 50px;
+  width: 43%;
+}
+
+.section-3 .cards-1 .img-1 img {
+  width: 100%;
+  height: 250px;
+}
+
+.section-3 .cards-1 .img-1 h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  padding: 26px 0px;
+}
+
+.section-3 .cards-1 .img-1 p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.section-3 .cards-1 .img-2 {
+  margin-right: 50px;
+  width: 43%;
+}
+
+.section-3 .cards-1 .img-2 img {
+  width: 100%;
+  height: 250px;
+}
+
+.section-3 .cards-1 .img-2 h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  padding: 26px 0px;
+}
+
+.section-3 .cards-1 .img-2 p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.section-4 {
+  width: 100%;
+  height: 1300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.section-4 .heading-section-4 {
+  height: 70px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-4 .heading-section-4 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section-4 .heading-section-4 .linediv4 {
+  background-color: black;
+  height: 2px;
+  width: 7%;
+}
+
+.section-4 .cards-2a {
+  width: 100%;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0px 50px;
+  margin-left: 37px;
+}
+
+.section-4 .cards-2a .img-1 {
+  width: 350px;
+  margin-right: 60px;
+  height: 500px;
+}
+
+.section-4 .cards-2a .img-1 img {
+  width: 350px;
+  height: 370px;
+}
+
+.section-4 .cards-2a .img-2 {
+  width: 350px;
+  margin-right: 60px;
+  height: 570px;
+}
+
+.section-4 .cards-2a .img-2 img {
+  width: 350px;
+  height: 370px;
+}
+
+.section-4 .cards-2a .img-3 {
+  width: 350px;
+  margin-right: 60px;
+  height: 570px;
+}
+
+.section-4 .cards-2a .img-3 img {
+  width: 350px;
+  height: 370px;
+}
+
+.section-4 .cards-2a .img-4 {
+  width: 350px;
+  margin-right: 60px;
+  height: 570px;
+}
+
+.section-4 .cards-2a .img-4 img {
+  width: 350px;
+  height: 370px;
+}
+
+.section-4 .cards-2a .img-5 {
+  width: 350px;
+  margin-right: 60px;
+  height: 570px;
+}
+
+.section-4 .cards-2a .img-5 img {
+  width: 350px;
+  height: 370px;
+}
+
+#heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  padding-bottom: 17px;
+  padding-top: 35px;
+}
+
+#para {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  padding-top: 17px;
+  color: #5e5e5e;
+  padding-bottom: 35px;
+}
+
+.blue-section {
+  width: 100%;
+  height: 500px;
+  background-color: #2D77A4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blue-section .centerdiv {
+  width: 70%;
+  height: 400px;
+}
+
+.blue-section .centerdiv .headingdiv {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blue-section .centerdiv .headingdiv h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  color: white;
+}
+
+.blue-section .centerdiv .headingdiv .linediv5 {
+  margin-top: 15px;
+  background-color: black;
+  height: 2px;
+  width: 9%;
+}
+
+.blue-section .centerdiv .downloaddivs {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blue-section .centerdiv .downloaddivs .item-style {
+  width: 70%;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.151);
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blue-section .centerdiv .downloaddivs .item-style:hover {
+  background-color: rgba(0, 0, 0, 0.096);
+}
+
+.blue-section .centerdiv .downloaddivs .item-style .label p a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  position: relative;
+  top: 13px;
+}
+
+.blue-section .centerdiv .downloaddivs .item-style .link p a {
+  position: relative;
+  top: 13px;
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+
+.blue-section .centerdiv .downloaddivs .item-style .link p a span svg {
+  position: relative;
+  bottom: 3px;
+}
+
+.carousel-section {
+  width: 100%;
+  height: 600px;
+  background-color: rgba(11, 11, 194, 0.123);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 16px;
+}
+
+.carousel-heading {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carousel-heading h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  color: black;
+  padding: 10px;
+}
+
+.carousel-heading .linediv6 {
+  background-color: black;
+  height: 2px;
+  width: 7%;
+}
+/*# sourceMappingURL=style.css.map */

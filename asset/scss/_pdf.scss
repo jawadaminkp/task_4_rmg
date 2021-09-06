@@ -1,0 +1,65 @@
+.pdf{
+    width: 100%;
+    height: 1220px;
+    // background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .heading{
+        // background-color: blue;
+        margin-top: 76px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        h2{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 32px;
+        }
+
+        .linediv2{
+            margin-top: 17px;
+            background-color: black;
+            height: 2px;
+            width: 45%;
+
+        }
+
+        a{
+            margin-top: 30px;
+            margin-bottom: 50px;
+            text-decoration: none;
+            color: #2d77a4;
+            font-family: 'Josefin Sans', sans-serif;
+
+            span{
+
+                .icon-style2{
+                    position: relative;
+                    top: 3px;
+                }
+        
+            }
+        }
+
+
+    }
+
+    .pdf-img{
+        height: 915px;
+        width: 56%;
+        // background-color: chocolate;
+        border: 3px solid rgba(171, 184, 171, 0.082);
+
+        img{
+            width: 710px;
+            height: 895px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+    
+}
